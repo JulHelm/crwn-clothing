@@ -1,6 +1,7 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: '. .';
-}
+.grid-container 
+  {
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+  }
